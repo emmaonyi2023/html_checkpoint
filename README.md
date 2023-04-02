@@ -12,7 +12,7 @@ Install Goodle Chrome.
 
 - Twitter: [@emmaonyi2023](https://twitter.com/Emmanuel_Onyi85)
 
-- LinkedIn: [onyinye-emmanuel-okereke-697b5290](https://www.linkedin.com/in/onyinye-emmanuel-okereke-697b5290/)
+- LinkedIn: [onyinye-emmanuel-okereke-697b5290](https://www.linkedin.com/in/onyinye-emmanuel-okereke-69b5290/)
 
 ## Contributing
 Contributions, issues, and feature requests are welcome!
