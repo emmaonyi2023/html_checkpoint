@@ -10,9 +10,9 @@ Install Goodle Chrome.
 
 - GitHub: [@emmaonyi2023](https://github.com/emmaonyi2023)
 
-- Twitter: [@emmaonyi2023](
+- Twitter: [@emmaonyi2023](https://twitter.com/Emmanuel_Onyi85)
 
-- LinkedIn: (http://linkedin.com)
+- LinkedIn: [onyinye-emmanuel-okereke-697b5290](https://www.linkedin.com/in/onyinye-emmanuel-okereke-697b5290/)
 
 ## Contributing
 Contributions, issues, and feature requests are welcome!
