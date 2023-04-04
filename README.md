@@ -6,7 +6,7 @@ Install at least one code editor preferrably Microsoft Visual Studio Code.
 Install Goodle Chrome.
 
 ## Live Preview
-https://emmaonyi2023.github.io/html_checkpoint/portfolio.html
+- Live Preview: [Link](https://emmaonyi2023.github.io/html_checkpoint/portfolio.html)
 
 ## Author
 **Emmanuel Okereke**
