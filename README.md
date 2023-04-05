@@ -5,6 +5,9 @@ The project is aimed at creating a portfolio web page. It makes use of semantic 
 Install at least one code editor preferrably Microsoft Visual Studio Code.
 Install Goodle Chrome.
 
+## Live Preview
+- Live Preview: [Link](https://emmaonyi2023.github.io/html_checkpoint/)
+
 ## Author
 **Emmanuel Okereke**
 
