@@ -1,0 +1,103 @@
+* {
+  box-sizing:content-box
+}
+
+/*insert background colour for the navbar*/
+.navbar {
+  background-color: beige;
+}
+
+/*display the navbar menu list items inline*/
+li {
+  display: inline;
+}
+
+/*styling for acnchor tags that have li elements as parents*/
+li a {
+  color: rgb(107, 141, 93);
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover*/
+li a:hover {
+  background-color: rgb(235, 235, 231);
+}
+
+/*body styling*/
+body {
+  background-color: rgb(248, 252, 252);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  font-size: 20px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  margin-left: 70px;
+  margin-right: 50px;
+}
+
+/*insert background colour to surround the landing page image*/
+.image {
+  background-color: azure;
+}
+
+/*insert styling for about section*/
+.aboutSection {
+  background-color: beige;
+  padding-top: 10px;
+}
+
+/*insert styling for work section*/
+.workSection {
+  background-color: rgb(235, 235, 231);
+  padding-top: 10px;
+}
+
+/*insert styling for resume section*/
+.resumeSection {
+  background-color: beige;
+  padding-top: 10px;
+}
+
+/*insert styling for contact section*/
+.contactSection {
+  background-color: rgb(235, 235, 231);
+  padding-top: 10px;
+}
+
+/*insert styling for footer*/
+.footer {
+  background-color: beige;
+  padding-top: 10px;
+}
+
+/*insert styling for paragraphs that are children of section elements*/
+section > p {
+  text-align: center;
+}
+
+/*insert styling for items with contact ID*/
+#contact {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+h1 {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  color: rgb(73, 90, 79);
+}
+
+/*#about {
+  font-size:x-large;
+}*/

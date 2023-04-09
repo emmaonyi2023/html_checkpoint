@@ -4,80 +4,85 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My portfolio Webpage</title>
+  <title>My Portfolio Webpage</title>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
   <header> <!--The header is defined here-->
-    <div> <!--The container for the navbar-->
-      <center><nav id="top"> <!--HTML centralization for the navbar-->
+    <div class="navbar"> <!--The container for the navbar-->
+      <nav id="top"> <!--HTML centralization for the navbar-->
         <!--Add the navbar-->
-        <a href="portfolio.html">Home</a> |
-        <a href="#about">About</a> |
-        <a href="#work">Work</a> |
-        <a href="#resume">Resume</a> |
-        <a href="#contact">Contact</a>
-      </nav></center><br>
+        <ul>
+          <li><a href="index.html">Home</a></li> |
+          <li><a href="#about">About</a></li> |
+          <li><a href="#work">Work</a></li> |
+          <li><a href="#resume">Resume</a></li> |
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+      </nav><br>
     </div>
   </header>
-  <div><!--Add the landing page image-->
+  <div class="image"><!--Add the landing page image-->
     <center><img src="res/LookingForWebDev.jpg" alt="Looking for web developer.jpg" width="940" center></center>
   </div>
-  <div>
-    <div>
-      <center><section><!--The About Section-->
+  <div class="mainContent">
+    <div class="aboutSection">
+      <section><!--The About Section-->
         <h1 id="about">ABOUT</h1>
         <p>Hi. My name is ONYINYE EMMANUEL OKEREKE. I design and develop websites using HTML, CSS and 
           JavaScript.
         </p>
         <p>Aside from web development, I also specialize in content management, creating curative designs for e-commerce 
-          landing pages and 'call-to-action webpages.
-          <div><!--Add the container for the passport image-->                        
+          landing pages and 'call-to-action' webpages.
+          <div id="image"><!--Add the container for the passport image-->                        
             <img src="res/passportPhoto.jpg" alt="My passport photo" width="90px" height="90px">
           </div>
         </p>
-      </section></center><p><a href="#top">Back to top</a></p><br>
+      </section><p><a href="#top">Back to top</a></p><br>
     </div>
-    <div>
-      <center><section><!--Add the Work Section-->
-        <h2 id="work">WORK</h2><br>
-        <p>I have experience working in various sectors of IT as shown below:
-        </p>
+    <div class="workSection">
+      <section><!--Add the Work Section-->
+        <h1 id="work">WORK</h1><br>
+        <p>I have experience working in various sectors of IT as shown below:</p>
         <table><!--Add table to hold the work experience images-->
           <div>
             <tr><!--A table row holding the work experience images-->
-              <td><img src="res/webdeveloper.png" alt="My passport photo" width="360px" height="300px"></td>
-              <td><img src="res/sysAdmin.png" alt="My passport photo" width="360px" height="300px"></td>
-              <td><img src="res/IT_Support.png" alt="My passport photo" width="360px" height="300px"></td>
+              <td><img src="res/webdeveloper.png" alt="My passport photo" width="320px" height="300px"></td>
+              <td><img src="res/sysAdmin.png" alt="My passport photo" width="320px" height="300px"></td>
+              <td><img src="res/IT_Support.png" alt="My passport photo" width="320px" height="300px"></td>
             </tr>
           </div>
           <div>
             <tr><!--A table row holding the work experience captions-->
               <td><b>Web Development</b></td>
               <td><b>System Administration</b></td>
-              <td><b>It Support</b></td>
+              <td><b>IT Support</b></td>
             </tr>
           </div>
         </table><br>  
-      </section></center><p><a href="#top">Back to top</a></p><br>
+      </section><p><a href="#top">Back to top</a></p><br>
     </div>
-    <div>
-      <center><section><!--Add the Resume Section-->
-        <h2 id="resume">RESUME</h2>
+    <div class="resumeSection">
+      <section><!--Add the Resume Section-->
+        <h1 id="resume">RESUME</h1>
         <p>I am an enthusiastic IT professional with a demonstrated passion and excellence working as a 
           Systems Administrator in the information technology and services industry for 6+ years and 
           recent foray into the world of Data Analytics. I am Skilled in Network Troubleshooting, 
           Technical Support, Data Migration (on-prem to cloud), JavaScript, CSS and HTML, Cloud Computing 
           (Azure) and Security. An insatiable learner and dogged IT professional with a Master’s Degree focused
-           in Geographic Information Science and Cartography from University of Lagos.  
-      <video width="420" height="360" autoplay muted controls>
-        <source src="/res/What_is_a_CMS_Content_Management_System_2022.mp4" types="video/mp4">
-      </video>
-      </section></center><p><a href="#top">Back to top</a></p><br>
+           in Geographic Information Science and Cartography from University of Lagos.<br> 
+        <video width="420" height="360" autoplay muted controls>
+          <source src="/res/What_is_a_CMS_Content_Management_System_2022.mp4" types="video/mp4">
+        </video>
+      </section><p><a href="#top">Back to top</a></p><br>
     </div>
-    <div>
-      <center><section><!--Add the Contact Section-->
-        <h2 id="contact">CONTACT</h2>
-        <div><!--Add the the social media icons for the contact-->
+    <div class="contactSection">
+      <section><!--Add the Contact Section-->
+        <h1 id="contact">CONTACT</h1>
+        <div id="contactIcons"><!--Add the the social media icons for the contact-->
           <center><p>I can be reached on the following social media channels:</p></center>
           <a href="https://www.facebook.com/o.e.onyi"><img src="res/facebook.png" alt="facebook.png" width="48px" height="48px"></a>
           <a href="https://www.instagram.com/emma_onyi/"><img src="res/Instagram.png" alt="facebook.png" width="48px" height="48px"></a>
@@ -86,12 +91,12 @@
           <a href="https://twitter.com/Emmanuel_Onyi85"><img src="res/Twitter.png" alt="facebook.png" width="48px" height="48px"></a>
           <a href="https://web.whatsapp.com/"><img src="res/Whatsapp.png" alt="facebook.png" width="48px" height="48px"></a>
         </div>
-        <div>
+        <div id="orChatme">
           <h3>OR</h3>
-          <p>chat me here:</p>
+          <p>Request a call back</p>
         </div>
         <form><!--Add the Contact form-->
-          <table>
+          <table id="contact">
             <div>
               <tr>
                 <td>First name:</td>
@@ -113,7 +118,9 @@
             <div>
               <tr>
                 <td>Enquiry:</td>
-                <td><input type:"text" name="email"></td>
+                <td>
+                  <textarea type:"text" name="enquiry" id="" cols="21" rows="5"></textarea>
+                </td>
               </tr>
             </div>
           </table>
@@ -121,11 +128,11 @@
             <button type="submit" id="btn">Submit</button>
           </div>
         </form> 
-      </section></center><p><a href="#top">Back to top</a></p><br>
+      </section><p><a href="#top">Back to top</a></p><br>
     </div>
   </div>
-  <center><footer><!--Add the footer-->
+  <div class="footer"><footer><!--Add the footer-->
     &copy; Emmanuel Onyinye Okereke 2023
-  </footer></center><br>
+  </footer></div><br>
 </body>
 </html>
