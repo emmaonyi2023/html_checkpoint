@@ -36,9 +36,9 @@ body {
   letter-spacing: -.003em;
   font-size: 20px;
   padding-left: 100px;
-  padding-top: 20px;
+  /* padding-top: 10px; */
   padding-right: 100px;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   margin-left: 70px;
   margin-right: 50px;
 }
@@ -75,7 +75,7 @@ body {
 /*insert styling for footer*/
 .footer {
   background-color: beige;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 /*insert styling for paragraphs that are children of section elements*/
